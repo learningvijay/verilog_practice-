@@ -1,0 +1,41 @@
+|encoder
+data_in[0] => data_in[0].IN1
+data_in[1] => data_in[1].IN1
+data_in[2] => data_in[2].IN1
+data_in[3] => data_in[3].IN1
+data_in[4] => data_in[4].IN1
+data_in[5] => data_in[5].IN1
+data_in[6] => data_in[6].IN1
+data_in[7] => data_in[7].IN1
+data_out[0] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|encoder|encoder_p:p
+data_in[0] => data_out[0].DATAIN
+data_in[0] => data_out.IN0
+data_in[0] => data_out.IN0
+data_in[1] => data_out.IN1
+data_in[1] => data_out.IN1
+data_in[2] => data_out.IN1
+data_in[2] => data_out.IN1
+data_in[3] => data_out.IN1
+data_in[3] => data_out.IN1
+data_in[4] => data_out.IN1
+data_in[4] => data_out.IN1
+data_in[5] => data_out.IN1
+data_in[5] => data_out.IN1
+data_in[6] => data_out.IN1
+data_in[6] => data_out.IN1
+data_in[7] => data_out.IN1
+data_out[0] <= data_in[0].DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[4] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[5] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[6] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[7] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vfull_adder_
+!s110 1775055635
+!i10b 1
+!s100 eU;Fa_61abJzQZY]hD8Hz0
+I53oe4jzC]HQo`WNYF588a0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/maven/Verilog_labs
+w1775055622
+Z2 8D:\maven\Verilog_labs\lab1\full_bhaviorval\full_adder_behavioral.v
+Z3 FD:\maven\Verilog_labs\lab1\full_bhaviorval\full_adder_behavioral.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1775055635.000000
+Z5 !s107 D:\maven\Verilog_labs\lab1\full_bhaviorval\full_adder_behavioral.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|D:\maven\Verilog_labs\lab1\full_bhaviorval\full_adder_behavioral.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vfull_adder_behaivoral
+!s110 1775055220
+!i10b 1
+!s100 EZ@VNb=4WAQmcYNQIZWPa1
+IJ;gk]RBMQJmliFi=E9hbl2
+R0
+R1
+w1775054900
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1775055220.000000
+R5
+R6
+!i113 1
+R7
+R8
+vfull_adder_behavioral
+!s110 1775055547
+!i10b 1
+!s100 KgGbfVznT4nA9n=i_4o=i2
+I=mE4WDflE1`lYfc^`52023
+R0
+R1
+w1775055496
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1775055547.000000
+R5
+R6
+!i113 1
+R7
+R8
+vfull_adder_behivoral
+!s110 1775054483
+!i10b 1
+!s100 AXGAH0IKJaCfBYbDmA;Yi2
+ILEhW3MOlc:]dQJGnabdPi1
+R0
+R1
+w1775054112
+8D:/maven/Verilog_labs/lab1/full_bhaviorval/full_adder_behavioral.v
+FD:/maven/Verilog_labs/lab1/full_bhaviorval/full_adder_behavioral.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1775054483.000000
+!s107 D:/maven/Verilog_labs/lab1/full_bhaviorval/full_adder_behavioral.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/maven/Verilog_labs/lab1/full_bhaviorval/full_adder_behavioral.v|
+!i113 1
+R7
+R8
+vfull_adder_tb
+!s110 1775055944
+!i10b 1
+!s100 `IiS_CD]noVQdUC;1Ob683
+ILYz]7]UPYDJEP=k?>6eeG1
+R0
+R1
+w1775055618
+8D:/maven/Verilog_labs/lab1/tb/full_adder_tb.v
+FD:/maven/Verilog_labs/lab1/tb/full_adder_tb.v
+L0 24
+R4
+r1
+!s85 0
+31
+!s108 1775055944.000000
+!s107 D:/maven/Verilog_labs/lab1/tb/full_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/maven/Verilog_labs/lab1/tb/full_adder_tb.v|
+!i113 1
+R7
+R8

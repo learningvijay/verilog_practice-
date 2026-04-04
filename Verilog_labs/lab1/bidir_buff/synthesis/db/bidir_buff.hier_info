@@ -1,0 +1,7 @@
+|bidir_buff
+control => a.OE
+control => b.OE
+a <> a
+b <> b
+
+

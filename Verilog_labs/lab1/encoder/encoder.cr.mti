@@ -1,0 +1,22 @@
+D:/maven/Verilog_labs/lab1/encoder/encoder_4to2.v {1 {vlog -work work -stats=none D:/maven/Verilog_labs/lab1/encoder/encoder_4to2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module encoder_4to_2
+
+Top level modules:
+	encoder_4to_2
+
+} {} {}} D:/maven/Verilog_labs/lab1/encoder/encoder.v {1 {vlog -work work -stats=none D:/maven/Verilog_labs/lab1/encoder/encoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module encoder
+
+Top level modules:
+	encoder
+
+} {} {}} D:/maven/Verilog_labs/lab1/encoder/encoder_tb.v {1 {vlog -work work -stats=none D:/maven/Verilog_labs/lab1/encoder/encoder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module encoder_tb
+
+Top level modules:
+	encoder_tb
+
+} {} {}}

@@ -1,0 +1,16 @@
+# ModelSim
+work/
+*.wlf
+transcript
+*.log
+
+# Quartus
+*.qpf
+*.qsf
+*.qws
+*.db
+*.bak
+
+# General
+*.tmp
+*.cache

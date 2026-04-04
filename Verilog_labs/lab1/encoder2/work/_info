@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vencoder
+Z0 !s110 1775237596
+!i10b 1
+!s100 <WgzRbZ6K]k@]aOh0ABPc3
+Il`MERHQ56M=1>fnMY4c0]2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/maven/Verilog_labs/lab1/encoder2
+w1775236358
+8D:/maven/Verilog_labs/lab1/encoder2/encoder.v
+FD:/maven/Verilog_labs/lab1/encoder2/encoder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1775237596.000000
+!s107 D:/maven/Verilog_labs/lab1/encoder2/encoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/maven/Verilog_labs/lab1/encoder2/encoder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vencoder_p
+R0
+!i10b 1
+!s100 4N=LdUfa8LOfcdmS]H7Wl3
+I;nF=o6OFYKe@WDS>bfTJf0
+R1
+R2
+w1775234579
+8D:/maven/Verilog_labs/lab1/encoder2/encoder_p.v
+FD:/maven/Verilog_labs/lab1/encoder2/encoder_p.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/maven/Verilog_labs/lab1/encoder2/encoder_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/maven/Verilog_labs/lab1/encoder2/encoder_p.v|
+!i113 1
+R5
+R6
+vencoder_tb
+R0
+!i10b 1
+!s100 d[RV<MH^BKcTSV[]Y[eg43
+I<lQ28goThnGi3B3jY>O2S2
+R1
+R2
+w1775237577
+8D:/maven/Verilog_labs/lab1/encoder2/encoder_tb.v
+FD:/maven/Verilog_labs/lab1/encoder2/encoder_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/maven/Verilog_labs/lab1/encoder2/encoder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/maven/Verilog_labs/lab1/encoder2/encoder_tb.v|
+!i113 1
+R5
+R6

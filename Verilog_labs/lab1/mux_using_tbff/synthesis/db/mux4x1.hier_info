@@ -1,0 +1,49 @@
+|mux4x1
+data_in[0] => data_in[0].IN1
+data_in[1] => data_in[1].IN1
+data_in[2] => data_in[2].IN1
+data_in[3] => data_in[3].IN1
+s[0] => s[0].IN1
+s[1] => s[1].IN1
+data_out <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4x1|decoder:d1
+data_in[0] => data_out.IN0
+data_in[0] => data_out.IN0
+data_in[0] => data_out.IN0
+data_in[0] => data_out.IN0
+data_in[1] => data_out.IN1
+data_in[1] => data_out.IN1
+data_in[1] => data_out.IN1
+data_in[1] => data_out.IN1
+data_out[0] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4x1|tri_state_buff:t0
+in => out.DATAIN
+en => out.OE
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4x1|tri_state_buff:t1
+in => out.DATAIN
+en => out.OE
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4x1|tri_state_buff:t2
+in => out.DATAIN
+en => out.OE
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4x1|tri_state_buff:t3
+in => out.DATAIN
+en => out.OE
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

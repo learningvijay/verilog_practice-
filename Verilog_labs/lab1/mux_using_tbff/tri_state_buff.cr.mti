@@ -1,0 +1,29 @@
+D:/maven/Verilog_labs/lab1/mux_using_tbff/mux4x1.v {1 {vlog -work work -stats=none D:/maven/Verilog_labs/lab1/mux_using_tbff/mux4x1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux4x1
+
+Top level modules:
+	mux4x1
+
+} {} {}} D:/maven/Verilog_labs/lab1/mux_using_tbff/mux4x1_tb.v {1 {vlog -work work -stats=none D:/maven/Verilog_labs/lab1/mux_using_tbff/mux4x1_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux4x1_tb
+
+Top level modules:
+	mux4x1_tb
+
+} {} {}} D:/maven/Verilog_labs/lab1/mux_using_tbff/decode.v {1 {vlog -work work -stats=none D:/maven/Verilog_labs/lab1/mux_using_tbff/decode.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} D:/maven/Verilog_labs/lab1/mux_using_tbff/tri_state_buff.v {1 {vlog -work work -stats=none D:/maven/Verilog_labs/lab1/mux_using_tbff/tri_state_buff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tri_state_buff
+
+Top level modules:
+	tri_state_buff
+
+} {} {}}

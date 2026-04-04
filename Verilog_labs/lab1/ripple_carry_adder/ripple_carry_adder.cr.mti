@@ -1,0 +1,29 @@
+D:/maven/Verilog_labs/lab1/ripple_carry_adder/r_c_a.v {1 {vlog -work work -stats=none D:/maven/Verilog_labs/lab1/ripple_carry_adder/r_c_a.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module r_c_a
+
+Top level modules:
+	r_c_a
+
+} {} {}} D:/maven/Verilog_labs/lab1/ripple_carry_adder/r_c_a_tb.v {1 {vlog -work work -stats=none D:/maven/Verilog_labs/lab1/ripple_carry_adder/r_c_a_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module r_c_a_tb
+
+Top level modules:
+	r_c_a_tb
+
+} {} {}} D:/maven/Verilog_labs/lab1/ripple_carry_adder/half_adder.v {1 {vlog -work work -stats=none D:/maven/Verilog_labs/lab1/ripple_carry_adder/half_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} D:/maven/Verilog_labs/lab1/ripple_carry_adder/full_adder.v {1 {vlog -work work -stats=none D:/maven/Verilog_labs/lab1/ripple_carry_adder/full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}}

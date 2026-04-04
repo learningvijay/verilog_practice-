@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vdecoder_4to_2
+!s110 1775138039
+!i10b 1
+!s100 ^<UJmoOd39bX]ZiWW^]373
+IQQ>DGc`d=D932goZBP=;N0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/maven/Verilog_labs/lab1/encoder
+w1775136727
+Z2 8D:/maven/Verilog_labs/lab1/encoder/encoder_4to2.v
+Z3 FD:/maven/Verilog_labs/lab1/encoder/encoder_4to2.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1775138039.000000
+!s107 D:/maven/Verilog_labs/lab1/encoder/encoder_4to2.v|
+Z5 !s90 -reportprogress|300|-work|work|-stats=none|D:/maven/Verilog_labs/lab1/encoder/encoder_4to2.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vencoder
+Z8 !s110 1775142178
+!i10b 1
+!s100 UdUSA6mXOln1Wn_AReafC0
+Ikg:oRNH<4CSz_^@fAR9C^0
+R0
+R1
+w1775141547
+8D:/maven/Verilog_labs/lab1/encoder/encoder.v
+FD:/maven/Verilog_labs/lab1/encoder/encoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1775142178.000000
+!s107 D:/maven/Verilog_labs/lab1/encoder/encoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/maven/Verilog_labs/lab1/encoder/encoder.v|
+!i113 1
+R6
+R7
+vencoder_4to_2
+R8
+!i10b 1
+!s100 ]FZoI8ahhz;cXRQB4mGIF2
+I[lH5Xcd6WiN1782DhV`Cb3
+R0
+R1
+w1775142166
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:/maven/Verilog_labs/lab1/encoder/encoder_4to2.v|
+R5
+!i113 1
+R6
+R7
+vencoder_tb
+R8
+!i10b 1
+!s100 522ma=74JXg:H>W7_9Bm21
+Ioia_BM^;@agJ:UQLKo5IH3
+R0
+R1
+w1775140403
+8D:/maven/Verilog_labs/lab1/encoder/encoder_tb.v
+FD:/maven/Verilog_labs/lab1/encoder/encoder_tb.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:/maven/Verilog_labs/lab1/encoder/encoder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/maven/Verilog_labs/lab1/encoder/encoder_tb.v|
+!i113 1
+R6
+R7
