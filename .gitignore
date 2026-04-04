@@ -10,6 +10,9 @@ transcript
 *.qws
 *.db
 *.bak
+incremental_db/
+output_files/
+synthesis/
 
 # General
 *.tmp
