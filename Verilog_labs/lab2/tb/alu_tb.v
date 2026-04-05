@@ -53,11 +53,21 @@ module alu_tb();
    reg [4*8:0]string_cmd;
 
    //Step1 : Instantiate the design ALU
+   alu a1(.a_in(a),
+          .b_in(b),
+          .command_in(command),
+	       .oe(enable),
+	       .d_out(out)
+);
+
 
 
    //Step2 : Write a task named "initialize" to initialize the inputs of DUT
-
-
+  task initialize();
+  begin
+   {a,b,command,enable}=0;
+  end
+   endtask
 
    //Tasks used for generating stimulus
    task en_oe(input i);
