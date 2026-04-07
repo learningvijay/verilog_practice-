@@ -27,7 +27,7 @@ module alu(input [7:0]a_in,b_in,
 	   output [15:0]d_out);
 
    parameter 	
-    ADD  = 4'b0000, // Add two 8 bit numbers a and b.
+         ADD  = 4'b0000, // Add two 8 bit numbers a and b.
 		 INC  = 4'b0001, // Increment a by 1. 
 		 SUB  = 4'b0010, // Subtracts b from a.
 		 DEC  = 4'b0011, // Decrement a by 1.
@@ -50,7 +50,7 @@ module alu(input [7:0]a_in,b_in,
 
    /*Step1 : Write down the functionality of ALU based on the commands given above.
 	        *Use arithmetic and logical operators* */
-   always@(command_in)
+   always@(*)
       begin
 	 case(command_in)
          ADD:out= a_in+b_in; // Add two 8 bit numbers a and b.
@@ -60,7 +60,7 @@ module alu(input [7:0]a_in,b_in,
 		 MUL:out= a_in[3:0]*b_in[3:0]; // Multiply 4 bit numbers a and b.
 		 DIV:out= a_in/b_in; // Divide a by b.
 		 SHL:out= a_in<<1; // Shift a to left side by 1 bit.
-		 SHR:out= a_in<<1; // Shift a to right by 1 bit.
+		 SHR:out= a_in>>1; // Shift a to right by 1 bit.
 		 AND:out= a_in&&b_in; // Logical AND operation
 	     OR:out= a_in||b_in; // Logical OR operation
 		 INV:out= !a_in; // Logical Negation
@@ -69,7 +69,7 @@ module alu(input [7:0]a_in,b_in,
 		 XOR:out= a_in^b_in; // Bitwise XOR
 		 XNOR:out= a_in~^b_in; // Bitwise XNOR
 		 BUF:out= a_in; // BUF//--------- write the functionality here -------  
-        default:out=16'bx;
+        default:out=16'b0;
 	 endcase
       end
 

@@ -119,7 +119,7 @@ module alu_tb();
       end
 			
    //Process used for generating stimulus by calling tasks & passing values
-   initial
+  /* initial
       begin
 	 initialize;
 	 en_oe(1'b1);
@@ -144,9 +144,28 @@ module alu_tb();
          cmd(ADD);
          delay;  
          $finish;
-      end
+      end*/
 			
-   //Process to monitor the changes in the variables	
+   //Process to monitor the changes in the variables
+   initial
+   begin
+      en_oe(1'b0);
+      initialize;
+      delay;
+      en_oe(1'b1);	
+      delay;
+      inputs(8'd20,8'd10);
+      for ( m=0;m<16;m=m+1 ) begin
+         delay;
+         command=m;
+         cmd(command);
+         delay;
+         en_oe(1'b1);
+      end
+   end
+
+
+
    initial 
       $monitor("Input oe=%b, a=%b, b=%b, command=%s, Output out=%b",enable,a,b,string_cmd,out);
 								
