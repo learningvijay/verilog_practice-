@@ -1,0 +1,102 @@
+
+
+
+
+module alu #(parameter N=4)(
+input [N-1:0]a,b,
+input [3:0]command,
+output reg [N-1:0]y
+
+);
+
+reg [N-1:0]out[8:0];
+
+parameter BUFF =4'b0000,
+          NOR_L=4'b0001,
+          NOR_B=4'b0010,
+          NAND_L=4'b0011,
+          NAND_B=4'b0100,
+          OR_L=4'b0101,
+          OR_B=4'b0110,
+          AND_L=4'b0111,
+          AND_B=4'b1000;
+
+
+
+
+
+
+
+
+
+buff n1 (.a(a[3:0]),
+.y(out[0])
+);
+
+nor_logical n2 (
+.a(a[3:0]),
+.b(b[3:0]),
+.y(out[1])
+);
+
+nor_bitwise n3 (
+.a(a[3:0]),
+.b(b[3:0]),
+.y(out[2])
+);
+
+nand_logical n4 (
+.a(a[3:0]),
+.b(b[3:0]),
+.y(out[3])
+);
+
+nand_bitwise n5 (
+.a(a[3:0]),
+.b(b[3:0]),
+.y(out[4])
+);
+
+or_logical n6 (
+.a(a[3:0]),
+.b(b[3:0]),
+.y(out[5])
+);
+
+or_bitwise n7 (
+.a(a[3:0]),
+.b(b[3:0]),
+.y(out[6])
+);
+
+and_logical n8 (
+.a(a[3:0]),
+.b(b[3:0]),
+.y(out[7])
+);
+
+
+and_bitwise n9 (
+.a(a[3:0]),
+.b(b[3:0]),
+.y(out[8])
+);
+
+
+always@(*)
+begin
+case(command)
+          BUFF:y=out[0];
+          NOR_L:y=out[1];
+          NOR_B:y=out[2];
+          NAND_L:y=out[3];
+          NAND_B:y=out[4];
+          OR_L:y=out[5];
+          OR_B:y=out[6];
+          AND_L:y=out[7];
+          AND_B:y=out[8];
+default:y=4'bz;
+endcase
+end
+endmodule
+

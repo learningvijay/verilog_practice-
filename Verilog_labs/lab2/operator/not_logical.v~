@@ -1,6 +1,6 @@
 module not_logical#(parameter N= 4)(
     input [N-1:0]a,
-    output wire [N-1:0]y
+    output wire y
    
 );
 

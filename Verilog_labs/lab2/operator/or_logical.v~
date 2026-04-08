@@ -6,7 +6,7 @@ module or_logical #(parameter N= 4)(
 
 
 
-assign  y=a||b;
+assign  y=a|b;
 // assign y=(|a)|(|b);
 
 endmodule

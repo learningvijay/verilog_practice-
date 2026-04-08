@@ -82,9 +82,9 @@ parameter BUFF =4'b0000,
       
       initialize;
       delay;
-      for ( i=0;i<4;i=i+1 ) begin
-      for ( j=0;j<4;j=j+1 ) begin
-      for ( k=0;k<9;k=k+1 ) begin
+      for ( i=0;i<4;i=m+1 ) begin
+      for ( j=0;j<4;j=m+1 ) begin
+      for ( k=0;k<9;k=m+1 ) begin
          l={i,j};
          inputs(l);
          m=k;
