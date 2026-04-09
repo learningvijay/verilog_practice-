@@ -1,0 +1,39 @@
+module full_sub_tb ;
+reg a,b,barrow_in;
+wire diff,barrow_out;
+integer i;
+
+
+half_sub s1(
+.a(a),
+.b(b),
+.barrow_in(barrow_in),
+.diff(diff),
+.barrow_out(barrow_out)
+);
+
+task inputs(input [2:0]i);
+begin
+barrow_in=i[0];
+a=i[1];
+b=i[2];
+
+end
+endtask
+
+initial
+begin
+for(i=0;i<8;i=i+1)
+begin
+inputs(i);
+#10;
+end
+end
+
+initial 
+$monitor("input a=%b ,b=%b , barrow_in =%b  output  difference =%b  ,barrow_out =%b  ",a,b,barrow_in,diff,barrow_out);
+
+initial       
+#100 $finish;
+
+endmodule
