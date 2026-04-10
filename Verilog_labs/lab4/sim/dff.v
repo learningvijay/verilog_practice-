@@ -21,11 +21,11 @@ Author Name :      Susmita
 Version     :      1.0
 *********************************************************************************************/
  
-module dff(input reg clock,
-	   input reg reset,
-	   input reg d_in,
+module dff(input clock,
+	   input reset,
+	   input  d_in,
 	   output reg Q_out,
-	   output reg Qb_out
+	   output  Qb_out
 );
 
    //Step1 : Declare Port Directions
@@ -40,9 +40,11 @@ module dff(input reg clock,
 	    Q_out <= 1'b0;
 	 else
 	    Q_out <= d_in;
+          	
       end
 
-   //Step2 : Write the logic for Qbar				
+   //Step2 : Write the logic for Qbar	
+ assign Qb_out= ~Q_out;	   		
 				 
 endmodule          
 

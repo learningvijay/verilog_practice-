@@ -1,0 +1,33 @@
+module half_adder;
+reg a,b;
+wire sum,carry;
+
+integer i;
+
+half_adder h1(
+.a(a),
+.b(b),
+.sum(sum),
+.carry(carry)
+);
+
+task inputs (input [1:0]i);
+begin
+a=i[0];
+b=i[1];
+end
+endtask
+
+initial
+begin
+for (i=0;i<4;i=i+1)
+begin
+inputs(i);
+#10;
+end
+end
+
+initial
+$monitor("input a=%b ,b=%b ,sum=%b ,carry=%b",a,b,sum,carry);
+
+endmodule

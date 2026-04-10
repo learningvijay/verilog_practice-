@@ -28,7 +28,7 @@ module dff_tb();
    wire q,qb;
 			
    //Step1 : Define a parameter with name "CYCLE" which is equal to 10  
-	parameter CYCLE;		
+	parameter CYCLE=10;		
    //Step2 : Instantiate the design       
        dff d1(.clock(clk),
 	      .reset(reset),

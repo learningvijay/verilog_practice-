@@ -28,14 +28,9 @@ module dff_tb();
    wire q,qb;
 			
    //Step1 : Define a parameter with name "CYCLE" which is equal to 10  
-	parameter CYCLE;		
+			
    //Step2 : Instantiate the design       
-       dff d1(.clock(clk),
-	      .reset(reset),
-	      .d_in(d),
-	      .Q_out(q),
-	      .Qb_out(qb)
-);
+
    //Understand the clock generation logic
    always
       begin

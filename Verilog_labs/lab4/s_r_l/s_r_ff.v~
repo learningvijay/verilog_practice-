@@ -1,0 +1,11 @@
+module s_r_ff (
+input s,r,
+output wire q,qb
+);
+
+
+nor #5 n1(q,r,qb);
+nor #5 n2(qb,s,q);
+
+
+endmodule
