@@ -21,7 +21,7 @@ Author Name :      Susmita
 Version     :      1.0
 *********************************************************************************************/
  
-module dff(input clock,
+module dff_ff(input clock,
 	   input reset,
 	   input  d_in,
 	   output reg Q_out,
