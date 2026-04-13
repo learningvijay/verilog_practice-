@@ -89,6 +89,5 @@ To build strong fundamentals in:
 * RTL Design
 * Verilog Coding
 * Simulation & Debugging
+  and progress towards becoming a **VLSI Design & Verification Engineer**.
 
-and progress towards becoming a **VLSI Design & Verification Engineer**.
-# verilog_practice-
