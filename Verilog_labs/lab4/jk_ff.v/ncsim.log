@@ -1,0 +1,34 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm jk_ff_tb.clk jk_ff_tb.i jk_ff_tb.j jk_ff_tb.k jk_ff_tb.q jk_ff_tb.qb jk_ff_tb.rst jk_ff_tb.state
+Created probe 1
+ncsim> run
+input j=x k=x state=       reset=x output q=0 qb=1 
+input j=x k=x state=       reset=1 output q=0 qb=1 
+input j=x k=x state=       reset=0 output q=0 qb=1 
+input j=0 k=0 state=  HOLD reset=0 output q=0 qb=1 
+input j=0 k=1 state= RESET reset=0 output q=0 qb=1 
+input j=1 k=0 state=   SET reset=0 output q=1 qb=0 
+input j=1 k=1 state=TOGGLE reset=0 output q=0 qb=1 
+input j=1 k=1 state=TOGGLE reset=0 output q=1 qb=0 
+input j=1 k=1 state=TOGGLE reset=0 output q=0 qb=1 
+input j=1 k=1 state=TOGGLE reset=0 output q=1 qb=0 
+input j=1 k=1 state=TOGGLE reset=0 output q=0 qb=1 
+input j=1 k=1 state=TOGGLE reset=0 output q=1 qb=0 
+input j=1 k=1 state=TOGGLE reset=0 output q=0 qb=1 
+input j=1 k=1 state=TOGGLE reset=0 output q=1 qb=0 
+input j=0 k=0 state=  HOLD reset=0 output q=1 qb=0 
+input j=0 k=1 state= RESET reset=0 output q=0 qb=1 
+input j=1 k=0 state=   SET reset=0 output q=1 qb=0 
+input j=1 k=1 state=TOGGLE reset=0 output q=0 qb=1 
+input j=1 k=1 state=TOGGLE reset=0 output q=1 qb=0 
+input j=1 k=1 state=TOGGLE reset=0 output q=0 qb=1 
+input j=1 k=1 state=TOGGLE reset=0 output q=1 qb=0 
+Simulation complete via $finish(1) at time 150 NS + 0
+./jk_ff_tb.v:77 #20 $finish;
+ncsim> 

@@ -1,0 +1,81 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm up_down_counter_loadable_tb.clk up_down_counter_loadable_tb.count up_down_counter_loadable_tb.data_in up_down_counter_loadable_tb.load up_down_counter_loadable_tb.rst up_down_counter_loadable_tb.up_down
+Created probe 1
+ncsim> run
+up_down     0=up     1=down 
+input rst=0 load=0 data_in= 0 up_down=0  output count= x  
+input rst=1 load=0 data_in= 0 up_down=0  output count= x  
+input rst=1 load=0 data_in= 0 up_down=0  output count= 0  
+input rst=0 load=0 data_in= 0 up_down=0  output count= 0  
+input rst=0 load=0 data_in= 0 up_down=0  output count= 1  
+input rst=0 load=0 data_in= 0 up_down=0  output count= 2  
+input rst=0 load=0 data_in= 0 up_down=1  output count= 2  
+input rst=0 load=0 data_in= 0 up_down=1  output count= 1  
+input rst=0 load=0 data_in= 0 up_down=1  output count= 0  
+input rst=0 load=0 data_in= 0 up_down=1  output count=15  
+input rst=0 load=1 data_in=11 up_down=1  output count=15  
+input rst=0 load=1 data_in=11 up_down=1  output count=11  
+input rst=0 load=0 data_in=11 up_down=1  output count=11  
+input rst=0 load=0 data_in=11 up_down=1  output count=10  
+input rst=0 load=0 data_in=11 up_down=1  output count= 9  
+input rst=1 load=0 data_in=11 up_down=1  output count= 9  
+input rst=1 load=0 data_in=11 up_down=1  output count= 0  
+input rst=0 load=0 data_in=11 up_down=1  output count= 0  
+input rst=0 load=0 data_in=11 up_down=1  output count=15  
+input rst=0 load=0 data_in=11 up_down=1  output count=14  
+input rst=0 load=1 data_in=12 up_down=1  output count=14  
+input rst=0 load=1 data_in=12 up_down=1  output count=12  
+input rst=0 load=0 data_in=12 up_down=1  output count=12  
+input rst=0 load=0 data_in=12 up_down=1  output count=11  
+input rst=1 load=0 data_in=12 up_down=1  output count=11  
+input rst=1 load=0 data_in=12 up_down=1  output count= 0  
+input rst=0 load=0 data_in=12 up_down=1  output count= 0  
+input rst=0 load=0 data_in=12 up_down=1  output count=15  
+input rst=0 load=0 data_in=12 up_down=1  output count=14  
+input rst=0 load=0 data_in=12 up_down=0  output count=14  
+input rst=0 load=0 data_in=12 up_down=0  output count=15  
+input rst=0 load=0 data_in=12 up_down=0  output count= 0  
+input rst=0 load=0 data_in=12 up_down=0  output count= 1  
+input rst=0 load=0 data_in=12 up_down=0  output count= 2  
+input rst=0 load=0 data_in=12 up_down=0  output count= 3  
+input rst=0 load=0 data_in=12 up_down=0  output count= 4  
+input rst=0 load=0 data_in=12 up_down=0  output count= 5  
+input rst=0 load=0 data_in=12 up_down=0  output count= 6  
+input rst=0 load=0 data_in=12 up_down=0  output count= 7  
+input rst=0 load=0 data_in=12 up_down=0  output count= 8  
+input rst=0 load=0 data_in=12 up_down=0  output count= 9  
+input rst=0 load=0 data_in=12 up_down=0  output count=10  
+input rst=0 load=0 data_in=12 up_down=0  output count=11  
+input rst=0 load=0 data_in=12 up_down=1  output count=11  
+input rst=0 load=0 data_in=12 up_down=1  output count=10  
+input rst=0 load=0 data_in=12 up_down=1  output count= 9  
+input rst=0 load=0 data_in=12 up_down=1  output count= 8  
+input rst=0 load=0 data_in=12 up_down=1  output count= 7  
+input rst=0 load=0 data_in=12 up_down=1  output count= 6  
+input rst=0 load=0 data_in=12 up_down=1  output count= 5  
+input rst=0 load=0 data_in=12 up_down=1  output count= 4  
+input rst=0 load=0 data_in=12 up_down=1  output count= 3  
+input rst=0 load=0 data_in=12 up_down=1  output count= 2  
+input rst=0 load=0 data_in=12 up_down=1  output count= 1  
+input rst=0 load=0 data_in=12 up_down=0  output count= 1  
+input rst=0 load=0 data_in=12 up_down=0  output count= 2  
+input rst=0 load=0 data_in=12 up_down=0  output count= 3  
+input rst=0 load=0 data_in=12 up_down=0  output count= 4  
+input rst=0 load=0 data_in=12 up_down=0  output count= 5  
+input rst=0 load=0 data_in=12 up_down=0  output count= 6  
+input rst=0 load=0 data_in=12 up_down=0  output count= 7  
+input rst=0 load=0 data_in=12 up_down=0  output count= 8  
+input rst=0 load=0 data_in=12 up_down=0  output count= 9  
+input rst=0 load=0 data_in=12 up_down=0  output count=10  
+Simulation complete via $finish(1) at time 500 NS + 0
+./up_down_counter_loadable_tb.v:112 #500 $finish;
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 20.7M program + 31.9M data = 52.6M total
+ncsim: CPU Usage - 3.7s system + 11.4s user = 15.1s total (252.0s, 6.0% cpu)

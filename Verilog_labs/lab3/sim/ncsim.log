@@ -1,0 +1,80 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm mux4_1_tb.data_in mux4_1_tb.i mux4_1_tb.j mux4_1_tb.sel_in mux4_1_tb.y_out
+Created probe 1
+ncsim> run
+input  data_in= 0000 , select =00  , output data_out= 0 
+input  data_in= 0001 , select =00  , output data_out= 1 
+input  data_in= 0010 , select =00  , output data_out= 0 
+input  data_in= 0011 , select =00  , output data_out= 1 
+input  data_in= 0100 , select =00  , output data_out= 0 
+input  data_in= 0101 , select =00  , output data_out= 1 
+input  data_in= 0110 , select =00  , output data_out= 0 
+input  data_in= 0111 , select =00  , output data_out= 1 
+input  data_in= 1000 , select =00  , output data_out= 0 
+input  data_in= 1001 , select =00  , output data_out= 1 
+input  data_in= 1010 , select =00  , output data_out= 0 
+input  data_in= 1011 , select =00  , output data_out= 1 
+input  data_in= 1100 , select =00  , output data_out= 0 
+input  data_in= 1101 , select =00  , output data_out= 1 
+input  data_in= 1110 , select =00  , output data_out= 0 
+input  data_in= 1111 , select =00  , output data_out= 1 
+input  data_in= 0000 , select =01  , output data_out= 0 
+input  data_in= 0001 , select =01  , output data_out= 0 
+input  data_in= 0010 , select =01  , output data_out= 1 
+input  data_in= 0011 , select =01  , output data_out= 1 
+input  data_in= 0100 , select =01  , output data_out= 0 
+input  data_in= 0101 , select =01  , output data_out= 0 
+input  data_in= 0110 , select =01  , output data_out= 1 
+input  data_in= 0111 , select =01  , output data_out= 1 
+input  data_in= 1000 , select =01  , output data_out= 0 
+input  data_in= 1001 , select =01  , output data_out= 0 
+input  data_in= 1010 , select =01  , output data_out= 1 
+input  data_in= 1011 , select =01  , output data_out= 1 
+input  data_in= 1100 , select =01  , output data_out= 0 
+input  data_in= 1101 , select =01  , output data_out= 0 
+input  data_in= 1110 , select =01  , output data_out= 1 
+input  data_in= 1111 , select =01  , output data_out= 1 
+input  data_in= 0000 , select =10  , output data_out= 0 
+input  data_in= 0001 , select =10  , output data_out= 0 
+input  data_in= 0010 , select =10  , output data_out= 0 
+input  data_in= 0011 , select =10  , output data_out= 0 
+input  data_in= 0100 , select =10  , output data_out= 1 
+input  data_in= 0101 , select =10  , output data_out= 1 
+input  data_in= 0110 , select =10  , output data_out= 1 
+input  data_in= 0111 , select =10  , output data_out= 1 
+input  data_in= 1000 , select =10  , output data_out= 0 
+input  data_in= 1001 , select =10  , output data_out= 0 
+input  data_in= 1010 , select =10  , output data_out= 0 
+input  data_in= 1011 , select =10  , output data_out= 0 
+input  data_in= 1100 , select =10  , output data_out= 1 
+input  data_in= 1101 , select =10  , output data_out= 1 
+input  data_in= 1110 , select =10  , output data_out= 1 
+input  data_in= 1111 , select =10  , output data_out= 1 
+input  data_in= 0000 , select =11  , output data_out= 0 
+input  data_in= 0001 , select =11  , output data_out= 0 
+input  data_in= 0010 , select =11  , output data_out= 0 
+input  data_in= 0011 , select =11  , output data_out= 0 
+input  data_in= 0100 , select =11  , output data_out= 0 
+input  data_in= 0101 , select =11  , output data_out= 0 
+input  data_in= 0110 , select =11  , output data_out= 0 
+input  data_in= 0111 , select =11  , output data_out= 0 
+input  data_in= 1000 , select =11  , output data_out= 1 
+input  data_in= 1001 , select =11  , output data_out= 1 
+input  data_in= 1010 , select =11  , output data_out= 1 
+input  data_in= 1011 , select =11  , output data_out= 1 
+input  data_in= 1100 , select =11  , output data_out= 1 
+input  data_in= 1101 , select =11  , output data_out= 1 
+input  data_in= 1110 , select =11  , output data_out= 1 
+input  data_in= 1111 , select =11  , output data_out= 1 
+Simulation complete via $finish(1) at time 1 US + 0
+./mux4_1_tb.v:78 #1000 $finish;
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 20.7M program + 32.0M data = 52.7M total
+ncsim: CPU Usage - 1.0s system + 8.5s user = 9.5s total (130.4s, 7.3% cpu)

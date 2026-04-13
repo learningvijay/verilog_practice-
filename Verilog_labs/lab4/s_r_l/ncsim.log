@@ -1,0 +1,23 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm s_r_ff_tb.i s_r_ff_tb.q s_r_ff_tb.qb s_r_ff_tb.r s_r_ff_tb.s
+Created probe 1
+ncsim> run
+input s=0 ,r=0 , output q=x ,qb=x /n
+input s=1 ,r=0 , output q=1 ,qb=0 /n
+input s=0 ,r=1 , output q=0 ,qb=1 /n
+input s=1 ,r=1 , output q=0 ,qb=0 /n
+input s=0 ,r=0 , output q=0 ,qb=1 /n
+input s=1 ,r=0 , output q=1 ,qb=0 /n
+input s=0 ,r=1 , output q=0 ,qb=1 /n
+input s=1 ,r=1 , output q=0 ,qb=0 /n
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 20.7M program + 32.0M data = 52.6M total
+ncsim: CPU Usage - 1.5s system + 9.5s user = 11.0s total (135.3s, 8.2% cpu)

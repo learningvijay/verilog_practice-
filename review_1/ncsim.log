@@ -1,0 +1,15 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> run
+input a=0 ,b=0 ,sum=0 ,carry=0
+input a=1 ,b=0 ,sum=1 ,carry=0
+input a=0 ,b=1 ,sum=1 ,carry=0
+input a=1 ,b=1 ,sum=0 ,carry=1
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 20.7M program + 31.2M data = 51.9M total
+ncsim: CPU Usage - 138.5s system + 154.1s user = 292.6s total (18924.3s, 1.5% cpu)

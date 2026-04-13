@@ -1,0 +1,76 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm counter_loadable_tb.clk counter_loadable_tb.count counter_loadable_tb.data_in counter_loadable_tb.load counter_loadable_tb.rst
+Created probe 1
+ncsim> run
+input rst=0 load=0 data_in=0000 output count=xxxx
+input rst=1 load=0 data_in=0000 output count=xxxx
+input rst=1 load=0 data_in=0000 output count=0000
+input rst=0 load=0 data_in=0000 output count=0000
+input rst=0 load=0 data_in=0000 output count=0001
+input rst=0 load=0 data_in=0000 output count=0010
+input rst=0 load=0 data_in=0000 output count=0011
+input rst=0 load=1 data_in=1010 output count=0011
+input rst=0 load=1 data_in=1010 output count=1010
+input rst=0 load=0 data_in=1010 output count=1010
+input rst=0 load=0 data_in=1010 output count=1011
+input rst=0 load=0 data_in=1010 output count=1100
+input rst=1 load=0 data_in=1010 output count=1100
+input rst=1 load=0 data_in=1010 output count=0000
+input rst=0 load=0 data_in=1010 output count=0000
+input rst=0 load=0 data_in=1010 output count=0001
+input rst=0 load=0 data_in=1010 output count=0010
+input rst=0 load=1 data_in=0110 output count=0010
+input rst=0 load=1 data_in=0110 output count=0110
+input rst=0 load=0 data_in=0110 output count=0110
+input rst=0 load=0 data_in=0110 output count=0111
+input rst=1 load=0 data_in=0110 output count=0111
+input rst=1 load=0 data_in=0110 output count=0000
+input rst=0 load=0 data_in=0110 output count=0000
+input rst=0 load=0 data_in=0110 output count=0001
+input rst=0 load=0 data_in=0110 output count=0010
+input rst=0 load=0 data_in=0110 output count=0011
+input rst=0 load=0 data_in=0110 output count=0100
+input rst=0 load=0 data_in=0110 output count=0101
+input rst=0 load=0 data_in=0110 output count=0110
+input rst=0 load=0 data_in=0110 output count=0111
+input rst=0 load=0 data_in=0110 output count=1000
+input rst=0 load=0 data_in=0110 output count=1001
+input rst=0 load=0 data_in=0110 output count=1010
+input rst=0 load=0 data_in=0110 output count=1011
+input rst=0 load=0 data_in=0110 output count=1100
+input rst=0 load=0 data_in=0110 output count=1101
+input rst=0 load=0 data_in=0110 output count=1110
+input rst=0 load=0 data_in=0110 output count=1111
+input rst=0 load=0 data_in=0110 output count=0000
+input rst=0 load=0 data_in=0110 output count=0001
+input rst=0 load=0 data_in=0110 output count=0010
+input rst=0 load=0 data_in=0110 output count=0011
+input rst=0 load=0 data_in=0110 output count=0100
+input rst=0 load=0 data_in=0110 output count=0101
+input rst=0 load=0 data_in=0110 output count=0110
+input rst=0 load=0 data_in=0110 output count=0111
+input rst=0 load=0 data_in=0110 output count=1000
+input rst=0 load=0 data_in=0110 output count=1001
+input rst=0 load=0 data_in=0110 output count=1010
+input rst=0 load=0 data_in=0110 output count=1011
+input rst=0 load=0 data_in=0110 output count=1100
+input rst=0 load=0 data_in=0110 output count=1101
+input rst=0 load=0 data_in=0110 output count=1110
+input rst=0 load=0 data_in=0110 output count=1111
+input rst=0 load=0 data_in=0110 output count=0000
+input rst=0 load=0 data_in=0110 output count=0001
+input rst=0 load=0 data_in=0110 output count=0010
+input rst=0 load=0 data_in=0110 output count=0011
+input rst=0 load=0 data_in=0110 output count=0100
+Simulation complete via $finish(1) at time 500 NS + 0
+./counter_loadable_tb.v:85 #500 $finish;
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 20.7M program + 31.9M data = 52.6M total
+ncsim: CPU Usage - 46.2s system + 58.1s user = 104.3s total (1813.8s, 5.7% cpu)

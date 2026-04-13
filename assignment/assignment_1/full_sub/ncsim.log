@@ -1,0 +1,24 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm full_sub_tb.a full_sub_tb.b full_sub_tb.barrow_in full_sub_tb.barrow_out full_sub_tb.diff full_sub_tb.i
+Created probe 1
+ncsim> run
+input a=0 ,b=0 , barrow_in =0  output  difference =0  ,barrow_out =0  
+input a=0 ,b=0 , barrow_in =1  output  difference =1  ,barrow_out =1  
+input a=1 ,b=0 , barrow_in =0  output  difference =1  ,barrow_out =0  
+input a=1 ,b=0 , barrow_in =1  output  difference =0  ,barrow_out =0  
+input a=0 ,b=1 , barrow_in =0  output  difference =1  ,barrow_out =1  
+input a=0 ,b=1 , barrow_in =1  output  difference =0  ,barrow_out =1  
+input a=1 ,b=1 , barrow_in =0  output  difference =0  ,barrow_out =0  
+input a=1 ,b=1 , barrow_in =1  output  difference =1  ,barrow_out =1  
+Simulation complete via $finish(1) at time 100 NS + 0
+./full_sub_tb.v:37 #100 $finish;
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 20.7M program + 31.9M data = 52.5M total
+ncsim: CPU Usage - 150.9s system + 157.6s user = 308.5s total (5489.1s, 5.6% cpu)

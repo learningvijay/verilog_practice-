@@ -10,21 +10,21 @@ xcelium.d/
 ncsim.d/
 ncelab.d/
 
+# Cadence temp files
+
+.nclaunch.*
+cds.lib
+hdl.var
+
 # Wave database
 
 waves.shm/
 
-# Cadence temp / logs
+# Keys and unnecessary logs
 
 *.key
-*.log
 *.history
 *.diag
-
-# Cadence extra
-.nclaunch.*
-cds.lib
-hdl.var
 
 # ==================================================
 
@@ -37,7 +37,7 @@ transcript
 vsim.wlf
 *.wlf
 
-# ModelSim project files (optional to ignore)
+# Project files (optional junk)
 
 *.mpf
 *.cr.mti
@@ -50,9 +50,7 @@ vsim.wlf
 
 db/
 incremental_db/
-*.qpf
-*.qsf
-*.qws
+synthesis/
 
 # Reports & outputs
 
@@ -60,7 +58,7 @@ incremental_db/
 *.summary
 *.smsg
 
-# Generated netlists
+# Netlists
 
 *.vo
 *.vho
@@ -78,6 +76,20 @@ incremental_db/
 *.trn
 *.dsn
 *.pak
+
+# ==================================================
+
+# LOG FILES (IMPORTANT)
+
+# ==================================================
+
+# Ignore all logs
+
+*.log
+
+# BUT KEEP ONLY THIS
+
+!ncsim.log
 
 # ==================================================
 
@@ -101,7 +113,7 @@ desktop.ini
 
 # ==================================================
 
-# IMPORTANT: KEEP YOUR WORK
+# KEEP YOUR WORK (VERY IMPORTANT)
 
 # ==================================================
 
@@ -115,13 +127,3 @@ desktop.ini
 
 !*.md
 !README*
-
-# ==================================================
-
-# OPTIONAL (KEEP LOGS IF YOU WANT PROOF)
-
-# ==================================================
-
-# Uncomment if you want logs
-
-# !*.log

@@ -1,0 +1,75 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm mod_counter_loadable_tb.clk mod_counter_loadable_tb.count mod_counter_loadable_tb.data_in mod_counter_loadable_tb.data_in_invalid mod_counter_loadable_tb.load mod_counter_loadable_tb.rst
+Created probe 1
+ncsim> run
+input rst=0 load=0 data_in=0000 output count=xxxx data_in_invalid =0 
+input rst=1 load=0 data_in=0000 output count=xxxx data_in_invalid =0 
+input rst=1 load=0 data_in=0000 output count=0000 data_in_invalid =0 
+input rst=0 load=0 data_in=0000 output count=0000 data_in_invalid =0 
+input rst=0 load=0 data_in=0000 output count=0001 data_in_invalid =0 
+input rst=0 load=0 data_in=0000 output count=0010 data_in_invalid =0 
+input rst=0 load=0 data_in=0000 output count=0011 data_in_invalid =0 
+input rst=0 load=1 data_in=1011 output count=0011 data_in_invalid =0 
+input rst=0 load=1 data_in=1011 output count=1011 data_in_invalid =0 
+input rst=0 load=0 data_in=1011 output count=1011 data_in_invalid =0 
+input rst=0 load=0 data_in=1011 output count=0000 data_in_invalid =0 
+input rst=0 load=0 data_in=1011 output count=0001 data_in_invalid =0 
+input rst=1 load=0 data_in=1011 output count=0001 data_in_invalid =0 
+input rst=1 load=0 data_in=1011 output count=0000 data_in_invalid =0 
+input rst=0 load=0 data_in=1011 output count=0000 data_in_invalid =0 
+input rst=0 load=0 data_in=1011 output count=0001 data_in_invalid =0 
+input rst=0 load=0 data_in=1011 output count=0010 data_in_invalid =0 
+input rst=0 load=1 data_in=1100 output count=0010 data_in_invalid =1 
+input rst=0 load=1 data_in=1100 output count=1100 data_in_invalid =1 
+input rst=0 load=0 data_in=1100 output count=1100 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0000 data_in_invalid =0 
+input rst=1 load=0 data_in=1100 output count=0000 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0000 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0001 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0010 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0011 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0100 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0101 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0110 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0111 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=1000 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=1001 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=1010 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=1011 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0000 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0001 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0010 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0011 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0100 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0101 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0110 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0111 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=1000 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=1001 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=1010 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=1011 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0000 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0001 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0010 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0011 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0100 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0101 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0110 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0111 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=1000 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=1001 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=1010 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=1011 data_in_invalid =0 
+input rst=0 load=0 data_in=1100 output count=0000 data_in_invalid =0 
+Simulation complete via $finish(1) at time 500 NS + 0
+./mod_counter_loadable_tb.v:91 
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 20.7M program + 31.9M data = 52.6M total
+ncsim: CPU Usage - 2.1s system + 10.4s user = 12.5s total (170.0s, 7.4% cpu)

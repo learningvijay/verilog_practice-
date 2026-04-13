@@ -1,0 +1,89 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> run
+input data_in = 00000000  ,output valid= 0  ,data_out= xxx
+input data_in = 00000001  ,output valid= 1  ,data_out= 000
+input data_in = 00000010  ,output valid= 1  ,data_out= 001
+input data_in = 00000100  ,output valid= 1  ,data_out= 010
+input data_in = 00001000  ,output valid= 1  ,data_out= 011
+input data_in = 00010000  ,output valid= 1  ,data_out= 100
+input data_in = 00100000  ,output valid= 1  ,data_out= 101
+input data_in = 01000000  ,output valid= 1  ,data_out= 110
+input data_in = 10000000  ,output valid= 1  ,data_out= 111
+input data_in = 00000000  ,output valid= 0  ,data_out= 111
+input data_in = 00000010  ,output valid= 1  ,data_out= 001
+input data_in = 00000101  ,output valid= 1  ,data_out= 010
+input data_in = 00001011  ,output valid= 1  ,data_out= 011
+input data_in = 00010111  ,output valid= 1  ,data_out= 100
+input data_in = 00101111  ,output valid= 1  ,data_out= 101
+input data_in = 01011111  ,output valid= 1  ,data_out= 110
+input data_in = 10111111  ,output valid= 1  ,data_out= 111
+input data_in = 01111111  ,output valid= 1  ,data_out= 110
+input data_in = 11111111  ,output valid= 1  ,data_out= 111
+input data_in = 00000010  ,output valid= 1  ,data_out= 001
+input data_in = 00000110  ,output valid= 1  ,data_out= 010
+input data_in = 00001110  ,output valid= 1  ,data_out= 011
+input data_in = 00011110  ,output valid= 1  ,data_out= 100
+input data_in = 00111110  ,output valid= 1  ,data_out= 101
+input data_in = 01111110  ,output valid= 1  ,data_out= 110
+input data_in = 11111110  ,output valid= 1  ,data_out= 111
+input data_in = 00000010  ,output valid= 1  ,data_out= 001
+input data_in = 00000111  ,output valid= 1  ,data_out= 010
+input data_in = 00010001  ,output valid= 1  ,data_out= 100
+input data_in = 00100101  ,output valid= 1  ,data_out= 101
+input data_in = 01001101  ,output valid= 1  ,data_out= 110
+input data_in = 10011101  ,output valid= 1  ,data_out= 111
+input data_in = 00111101  ,output valid= 1  ,data_out= 101
+input data_in = 01111101  ,output valid= 1  ,data_out= 110
+input data_in = 11111101  ,output valid= 1  ,data_out= 111
+input data_in = 00000010  ,output valid= 1  ,data_out= 001
+input data_in = 00001000  ,output valid= 1  ,data_out= 011
+input data_in = 00010100  ,output valid= 1  ,data_out= 100
+input data_in = 00101100  ,output valid= 1  ,data_out= 101
+input data_in = 01011100  ,output valid= 1  ,data_out= 110
+input data_in = 10111100  ,output valid= 1  ,data_out= 111
+input data_in = 01111100  ,output valid= 1  ,data_out= 110
+input data_in = 11111100  ,output valid= 1  ,data_out= 111
+input data_in = 00000010  ,output valid= 1  ,data_out= 001
+input data_in = 00001001  ,output valid= 1  ,data_out= 011
+input data_in = 00010111  ,output valid= 1  ,data_out= 100
+input data_in = 00110011  ,output valid= 1  ,data_out= 101
+input data_in = 01101011  ,output valid= 1  ,data_out= 110
+input data_in = 11011011  ,output valid= 1  ,data_out= 111
+input data_in = 10111011  ,output valid= 1  ,data_out= 111
+input data_in = 01111011  ,output valid= 1  ,data_out= 110
+input data_in = 11111011  ,output valid= 1  ,data_out= 111
+input data_in = 00000010  ,output valid= 1  ,data_out= 001
+input data_in = 00001010  ,output valid= 1  ,data_out= 011
+input data_in = 00011010  ,output valid= 1  ,data_out= 100
+input data_in = 00111010  ,output valid= 1  ,data_out= 101
+input data_in = 01111010  ,output valid= 1  ,data_out= 110
+input data_in = 11111010  ,output valid= 1  ,data_out= 111
+input data_in = 00000010  ,output valid= 1  ,data_out= 001
+input data_in = 00001011  ,output valid= 1  ,data_out= 011
+input data_in = 00011101  ,output valid= 1  ,data_out= 100
+input data_in = 01000001  ,output valid= 1  ,data_out= 110
+input data_in = 10001001  ,output valid= 1  ,data_out= 111
+input data_in = 00011001  ,output valid= 1  ,data_out= 100
+input data_in = 00111001  ,output valid= 1  ,data_out= 101
+input data_in = 01111001  ,output valid= 1  ,data_out= 110
+input data_in = 11111001  ,output valid= 1  ,data_out= 111
+input data_in = 00000010  ,output valid= 1  ,data_out= 001
+input data_in = 00001100  ,output valid= 1  ,data_out= 011
+input data_in = 00100000  ,output valid= 1  ,data_out= 101
+input data_in = 01001000  ,output valid= 1  ,data_out= 110
+input data_in = 10011000  ,output valid= 1  ,data_out= 111
+input data_in = 00111000  ,output valid= 1  ,data_out= 101
+input data_in = 01111000  ,output valid= 1  ,data_out= 110
+input data_in = 11111000  ,output valid= 1  ,data_out= 111
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm p_encoder8_3_tb.data_in p_encoder8_3_tb.data_out p_encoder8_3_tb.i p_encoder8_3_tb.j p_encoder8_3_tb.register p_encoder8_3_tb.valid
+Created probe 1
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> 

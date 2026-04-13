@@ -1,0 +1,37 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm dff_tb.clk dff_tb.d dff_tb.q dff_tb.qb dff_tb.reset
+Created probe 1
+ncsim> run
+input reset=x ,d=x , output q=x , qb=x ,
+input reset=1 ,d=x , output q=x , qb=x ,
+input reset=1 ,d=x , output q=0 , qb=1 ,
+input reset=0 ,d=x , output q=0 , qb=1 ,
+input reset=0 ,d=x , output q=x , qb=x ,
+input reset=0 ,d=0 , output q=x , qb=x ,
+input reset=0 ,d=0 , output q=0 , qb=1 ,
+input reset=0 ,d=1 , output q=0 , qb=1 ,
+input reset=0 ,d=1 , output q=1 , qb=0 ,
+input reset=0 ,d=0 , output q=1 , qb=0 ,
+input reset=0 ,d=0 , output q=0 , qb=1 ,
+input reset=0 ,d=1 , output q=0 , qb=1 ,
+input reset=0 ,d=1 , output q=1 , qb=0 ,
+input reset=1 ,d=1 , output q=1 , qb=0 ,
+input reset=1 ,d=1 , output q=0 , qb=1 ,
+input reset=0 ,d=1 , output q=0 , qb=1 ,
+input reset=0 ,d=1 , output q=1 , qb=0 ,
+input reset=0 ,d=0 , output q=1 , qb=0 ,
+input reset=0 ,d=0 , output q=0 , qb=1 ,
+input reset=0 ,d=1 , output q=0 , qb=1 ,
+input reset=0 ,d=1 , output q=1 , qb=0 ,
+Simulation complete via $finish(1) at time 115 NS + 0
+./dff_tb.v:79          $finish;
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 20.7M program + 32.0M data = 52.6M total
+ncsim: CPU Usage - 205.4s system + 227.7s user = 433.0s total (13142.8s, 3.3% cpu)
