@@ -21,6 +21,11 @@ waves.shm/
 *.history
 *.diag
 
+# Cadence extra
+.nclaunch.*
+cds.lib
+hdl.var
+
 # ==================================================
 
 # MODELSIM / QUESTA
