@@ -1,19 +1,122 @@
-# ModelSim
-work/
-*.wlf
-transcript
-*.log
+# ==================================================
 
-# Quartus
+# CADENCE (Xcelium / Incisive / ncsim)
+
+# ==================================================
+
+.simvision/
+INCA_libs/
+xcelium.d/
+ncsim.d/
+ncelab.d/
+
+# Wave database
+
+waves.shm/
+
+# Cadence temp / logs
+
+*.key
+*.log
+*.history
+*.diag
+
+# ==================================================
+
+# MODELSIM / QUESTA
+
+# ==================================================
+
+work/
+transcript
+vsim.wlf
+*.wlf
+
+# ModelSim project files (optional to ignore)
+
+*.mpf
+*.cr.mti
+
+# ==================================================
+
+# QUARTUS / SYNTHESIS
+
+# ==================================================
+
+db/
+incremental_db/
 *.qpf
 *.qsf
 *.qws
-*.db
-*.bak
-incremental_db/
-output_files/
-synthesis/
 
-# General
+# Reports & outputs
+
+*.rpt
+*.summary
+*.smsg
+
+# Generated netlists
+
+*.vo
+*.vho
+*.edf
+
+# ==================================================
+
+# GENERAL SIMULATION FILES
+
+# ==================================================
+
+*.vcd
+*.fsdb
+*.shm
+*.trn
+*.dsn
+*.pak
+
+# ==================================================
+
+# BACKUP / TEMP FILES
+
+# ==================================================
+
+*~
+*.bak
+*.swp
 *.tmp
-*.cache
+
+# ==================================================
+
+# OS FILES
+
+# ==================================================
+
+Thumbs.db
+desktop.ini
+
+# ==================================================
+
+# IMPORTANT: KEEP YOUR WORK
+
+# ==================================================
+
+!*.v
+!*.sv
+!*.vh
+!*.vhd
+
+!*.tcl
+!*.do
+
+!*.md
+!README*
+
+# ==================================================
+
+# OPTIONAL (KEEP LOGS IF YOU WANT PROOF)
+
+# ==================================================
+
+# Uncomment if you want logs
+
+# !*.log
