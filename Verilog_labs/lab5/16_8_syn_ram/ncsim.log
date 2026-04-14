@@ -1,0 +1,16 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm r16_8_syn_ram_tb.clk r16_8_syn_ram_tb.data_in r16_8_syn_ram_tb.data_out r16_8_syn_ram_tb.i r16_8_syn_ram_tb.j r16_8_syn_ram_tb.read_addr r16_8_syn_ram_tb.read_en r16_8_syn_ram_tb.rst r16_8_syn_ram_tb.write_addr r16_8_syn_ram_tb.write_en
+Created probe 1
+ncsim> run
+Simulation complete via $finish(1) at time 560 NS + 0
+./r16_8_syn_ram_tb.v:151 #50 $finish;
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 20.7M program + 31.9M data = 52.5M total
+ncsim: CPU Usage - 19.7s system + 34.3s user = 54.0s total (920.4s, 5.9% cpu)
