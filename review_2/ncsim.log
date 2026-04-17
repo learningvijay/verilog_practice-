@@ -1,0 +1,34 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm counter_tb.clk counter_tb.count counter_tb.i counter_tb.rst counter_tb.up_down
+Created probe 1
+ncsim> run
+ rst=0 up_down=1 count=xxxx
+ rst=1 up_down=1 count=xxxx
+ rst=0 up_down=1 count=0000
+ rst=0 up_down=0 count=0010
+ rst=0 up_down=0 count=0001
+ rst=0 up_down=0 count=1111
+ rst=0 up_down=0 count=1101
+ rst=0 up_down=0 count=1011
+ rst=0 up_down=0 count=1001
+ rst=0 up_down=0 count=0111
+ rst=0 up_down=0 count=0101
+ rst=0 up_down=1 count=0011
+ rst=0 up_down=1 count=0100
+ rst=0 up_down=1 count=0110
+ rst=0 up_down=1 count=1000
+ rst=0 up_down=1 count=1010
+ rst=0 up_down=1 count=1100
+ rst=0 up_down=1 count=1110
+ rst=0 up_down=1 count=0000
+ rst=0 up_down=1 count=0010
+Simulation complete via $finish(1) at time 200 NS + 0
+./counter_tb.v:63 #20 $finish;
+ncsim> ncsim: Memory Usage - 20.7M program + 35.8M data = 56.4M total
+ncsim: CPU Usage - 21.0s system + 7.8s user = 28.8s total (177.0s, 16.3% cpu)

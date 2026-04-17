@@ -1,0 +1,36 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm siso_s_r_tb.clk siso_s_r_tb.i siso_s_r_tb.rst siso_s_r_tb.s_in siso_s_r_tb.s_out siso_s_r_tb.shift_en siso_s_r_tb.temp
+Created probe 1
+ncsim> run
+T=5 | clk=1 rst=0 shift_en=0 sin=0 reg=xxxx sout=x
+T=15 | clk=1 rst=1 shift_en=0 sin=0 reg=0000 sout=0
+T=25 | clk=1 rst=0 shift_en=0 sin=0 reg=0000 sout=0
+T=35 | clk=1 rst=0 shift_en=1 sin=0 reg=0000 sout=0
+T=45 | clk=1 rst=0 shift_en=1 sin=1 reg=0000 sout=0
+T=55 | clk=1 rst=0 shift_en=1 sin=1 reg=0001 sout=0
+T=65 | clk=1 rst=0 shift_en=1 sin=1 reg=0011 sout=0
+T=75 | clk=1 rst=0 shift_en=1 sin=1 reg=0111 sout=0
+T=85 | clk=1 rst=0 shift_en=1 sin=1 reg=1111 sout=0
+T=95 | clk=1 rst=0 shift_en=1 sin=1 reg=1111 sout=1
+T=105 | clk=1 rst=0 shift_en=0 sin=0 reg=1111 sout=1
+T=115 | clk=1 rst=1 shift_en=0 sin=0 reg=0000 sout=0
+T=125 | clk=1 rst=0 shift_en=0 sin=0 reg=0000 sout=0
+T=135 | clk=1 rst=0 shift_en=1 sin=1 reg=0000 sout=0
+T=145 | clk=1 rst=0 shift_en=1 sin=1 reg=0001 sout=0
+T=155 | clk=1 rst=0 shift_en=1 sin=0 reg=0011 sout=0
+T=165 | clk=1 rst=0 shift_en=1 sin=1 reg=0110 sout=0
+T=175 | clk=1 rst=0 shift_en=1 sin=1 reg=1101 sout=0
+T=185 | clk=1 rst=0 shift_en=1 sin=0 reg=1011 sout=1
+T=195 | clk=1 rst=0 shift_en=1 sin=1 reg=0110 sout=1
+T=205 | clk=1 rst=0 shift_en=1 sin=0 reg=1101 sout=0
+T=215 | clk=1 rst=0 shift_en=1 sin=1 reg=1010 sout=1
+T=225 | clk=1 rst=0 shift_en=1 sin=0 reg=0101 sout=1
+Simulation complete via $finish(1) at time 230 NS + 0
+./siso_s_r_tb.v:87 #10 $finish;
+ncsim> 
