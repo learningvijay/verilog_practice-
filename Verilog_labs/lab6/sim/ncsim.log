@@ -1,0 +1,40 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm seq_det_tb.clock seq_det_tb.din seq_det_tb.dout seq_det_tb.reset
+Created probe 1
+ncsim> run
+Reset=0, state=xx, Din=0, Output Dout=0
+Reset=0, state=00, Din=0, Output Dout=0
+Reset=1, state=00, Din=0, Output Dout=0
+Reset=0, state=00, Din=0, Output Dout=0
+Reset=0, state=00, Din=1, Output Dout=0
+Reset=0, state=01, Din=1, Output Dout=0
+Reset=0, state=01, Din=0, Output Dout=0
+Reset=0, state=10, Din=0, Output Dout=0
+Reset=0, state=10, Din=1, Output Dout=1
+Correct output at state 11
+Reset=0, state=11, Din=1, Output Dout=0
+Reset=0, state=11, Din=0, Output Dout=0
+Reset=0, state=10, Din=0, Output Dout=0
+Reset=0, state=10, Din=1, Output Dout=1
+Correct output at state 11
+Reset=0, state=11, Din=1, Output Dout=0
+Reset=0, state=01, Din=1, Output Dout=0
+Reset=1, state=01, Din=1, Output Dout=0
+Reset=1, state=00, Din=1, Output Dout=0
+Reset=0, state=00, Din=1, Output Dout=0
+Reset=0, state=01, Din=1, Output Dout=0
+Reset=0, state=01, Din=0, Output Dout=0
+Reset=0, state=10, Din=0, Output Dout=0
+Reset=0, state=10, Din=1, Output Dout=1
+Correct output at state 11
+Reset=0, state=11, Din=1, Output Dout=0
+Reset=0, state=01, Din=1, Output Dout=0
+Simulation complete via $finish(1) at time 160 NS + 0
+./seq_det_tb.v:114 	 $finish;
+ncsim> 
