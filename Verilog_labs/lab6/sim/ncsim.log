@@ -37,4 +37,7 @@ Reset=0, state=11, Din=1, Output Dout=0
 Reset=0, state=01, Din=1, Output Dout=0
 Simulation complete via $finish(1) at time 160 NS + 0
 ./seq_det_tb.v:114 	 $finish;
-ncsim> 
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 20.7M program + 32.0M data = 52.7M total
+ncsim: CPU Usage - 16.9s system + 29.6s user = 46.5s total (968.3s, 4.8% cpu)
