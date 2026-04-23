@@ -1,0 +1,14 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm div6_fsm_tb.clk div6_fsm_tb.i div6_fsm_tb.rst div6_fsm_tb.si div6_fsm_tb.y
+Created probe 1
+ncsim> run
+data=00000000000000000000000000000000 
+Simulation complete via $finish(1) at time 520 NS + 0
+./div6_fsm_tb.v:28 #10 $finish;
+ncsim> 

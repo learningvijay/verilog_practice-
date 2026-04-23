@@ -1,0 +1,21 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm full_adder_tb.a full_adder_tb.b full_adder_tb.carry full_adder_tb.cin full_adder_tb.i full_adder_tb.sum
+Created probe 1
+ncsim> run
+Input a=0, b=0, c=0, Output sum =0, carry=0
+Input a=0, b=0, c=1, Output sum =1, carry=0
+Input a=0, b=1, c=0, Output sum =1, carry=0
+Input a=0, b=1, c=1, Output sum =0, carry=1
+Input a=1, b=0, c=0, Output sum =1, carry=0
+Input a=1, b=0, c=1, Output sum =0, carry=1
+Input a=1, b=1, c=0, Output sum =0, carry=1
+Input a=1, b=1, c=1, Output sum =1, carry=1
+Simulation complete via $finish(1) at time 100 NS + 0
+./full_adder_tb.v:58    initial #100 $finish;
+ncsim> 
