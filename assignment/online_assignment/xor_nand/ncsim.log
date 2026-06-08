@@ -1,0 +1,33 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm xor_nand_tb.a xor_nand_tb.b xor_nand_tb.i xor_nand_tb.y
+Created probe 1
+ncsim> run
+10 ns delay
+ xor implimented is correct a=0  b=0   y=0
+ xor implimented is correct a=0  b=1   y=1
+ xor implimented is correct a=1  b=0   y=1
+ xor implimented is correct a=1  b=1   y=0
+5 ns delay
+ xor implimented is correct a=0  b=0   y=0
+ xor implimented is correct a=0  b=1   y=1
+ xor implimented is correct a=1  b=0   y=1
+ xor implimented is correct a=1  b=1   y=0
+2 ns delay
+ xor implimented is correct a=0  b=0   y=0
+ xor implimented is correct a=0  b=1   y=1
+ xor implimented is correct a=1  b=0   y=1
+ xor implimented is correct a=1  b=1   y=0
+1 ns delay
+ xor implimented is correct a=0  b=0   y=0
+ xor implimented is correct a=0  b=1   y=1
+ xor implimented is correct a=1  b=0   y=1
+ xor implimented is correct a=1  b=1   y=0
+Simulation complete via $finish(1) at time 82 NS + 0
+./xor_nand_tb.v:63 #10 $finish;
+ncsim> 

@@ -18,4 +18,7 @@ Input a=1, b=1, c=0, Output sum =0, carry=1
 Input a=1, b=1, c=1, Output sum =1, carry=1
 Simulation complete via $finish(1) at time 100 NS + 0
 ./full_adder_tb.v:58    initial #100 $finish;
-ncsim> 
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 20.7M program + 32.0M data = 52.7M total
+ncsim: CPU Usage - 42.7s system + 58.8s user = 101.6s total (2282.0s, 4.5% cpu)

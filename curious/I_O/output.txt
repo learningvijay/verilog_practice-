@@ -1,0 +1,6 @@
+Data = 10, Square = 100
+Data = 20, Square = 400
+Data = 30, Square = 900
+Data = 40, Square = 1600
+Data = 50, Square = 2500
+Final Sum = 150

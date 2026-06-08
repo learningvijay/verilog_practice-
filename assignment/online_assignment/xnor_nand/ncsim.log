@@ -1,0 +1,36 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm xnor_nand_tb.a xnor_nand_tb.b xnor_nand_tb.i xnor_nand_tb.y
+Created probe 1
+ncsim> run
+10 ns delay
+ xnor implimented is correct a=0  b=0   y=1
+ xnor implimented is correct a=0  b=1   y=0
+ xnor implimented is correct a=1  b=0   y=0
+ xnor implimented is correct a=1  b=1   y=1
+5 ns delay
+ xnor implimented is correct a=0  b=0   y=1
+ xnor implimented is correct a=0  b=1   y=0
+ xnor implimented is correct a=1  b=0   y=0
+ xnor implimented is correct a=1  b=1   y=1
+2 ns delay
+ xnor implimented is correct a=0  b=0   y=1
+ xnor implimented is correct a=0  b=1   y=0
+ xnor implimented is correct a=1  b=0   y=0
+ xnor implimented is correct a=1  b=1   y=1
+1 ns delay
+ xnor implimented is correct a=0  b=0   y=1
+ xnor implimented is correct a=0  b=1   y=0
+ xnor implimented is correct a=1  b=0   y=0
+ xnor implimented is correct a=1  b=1   y=1
+Simulation complete via $finish(1) at time 102 NS + 0
+./xnor_nand_tb.v:65 #30 $finish;
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 20.7M program + 32.0M data = 52.7M total
+ncsim: CPU Usage - 1.8s system + 4.5s user = 6.3s total (76.9s, 8.2% cpu)

@@ -3,6 +3,7 @@ reg control;
 wire a,b;
 integer i;
 reg temp1,temp2;
+
 bidir_buff bi (
     .control(control),
     .a(a),

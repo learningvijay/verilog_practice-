@@ -1,0 +1,18 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm pascal_triangle_tb.i pascal_triangle_tb.j
+Created probe 1
+ncsim> run
+    1 
+   1 1 
+  1 2 1 
+ 1 3 3 1 
+1 4 6 4 1 
+Simulation complete via $finish(1) at time 0 FS + 0
+./pascal_triangle_tb.v:36     $finish;
+ncsim> 

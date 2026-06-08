@@ -1,0 +1,24 @@
+ncsim: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm sipo_10bit_tb.clk_output sipo_10bit_tb.clk_shift sipo_10bit_tb.data sipo_10bit_tb.i sipo_10bit_tb.mode sipo_10bit_tb.parallel_out sipo_10bit_tb.rst_n sipo_10bit_tb.serial_in sipo_10bit_tb.shift_reg
+Created probe 1
+ncsim> run
+[2000] Reset Applied
+[11000] Sent Data = 0100100100
+[20000] Shift_Reg = 0100100100  Parallel_Out = 0100100100
+[30000] Sent Data = 1010000001
+[40000] Shift_Reg = 1010000001  Parallel_Out = 1010000001
+[50000] Sent Data = 1000001001
+[60000] Shift_Reg = 1000001001  Parallel_Out = 1000001001
+[70000] Sent Data = 1001100011
+[80000] Shift_Reg = 1001100011  Parallel_Out = 1001100011
+[90000] Sent Data = 1100001101
+[100000] Shift_Reg = 1100001101  Parallel_Out = 1100001101
+Simulation complete via $finish(1) at time 120 NS + 0
+./sipo_10bit_tb.v:98     $finish;
+ncsim> 
